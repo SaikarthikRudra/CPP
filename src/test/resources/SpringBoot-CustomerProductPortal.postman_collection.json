@@ -1,0 +1,2279 @@
+{
+	"info": {
+		"_postman_id": "e66e5dc8-316d-43ec-9b76-2d2905c5a1a3",
+		"name": "SpringBoot-CustomerProductPortal",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19799571"
+			},
+	"item": [
+		{
+			"name": "productOprationSF",
+			"item": [
+				{
+					"name": "get product",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-uri}}/v1/product/sf-get-product",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"product",
+								"sf-get-product"
+							],
+							"query": [
+								{
+									"key": "producttitle",
+									"value": "D",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "getParticularProductSF",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base-uri}}/v1/product/sf-get-product",
+									"host": [
+										"{{base-uri}}"
+									],
+									"path": [
+										"v1",
+										"product",
+										"sf-get-product"
+									],
+									"query": [
+										{
+											"key": "producttitle",
+											"value": "D",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000 ; includeSubDomains"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 24 Jun 2024 10:51:54 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"productTitle\": \"REALME-NARZO-N55-6GB-64GB\",\n        \"brandName\": \"Realme\",\n        \"seriesName\": \"Narzo-N55\",\n        \"price\": 18500\n    },\n    {\n        \"productTitle\": \"REDMI-NOTE-10S-4GB-64GB\",\n        \"brandName\": \"Redmi\",\n        \"seriesName\": \"Note-10S\",\n        \"price\": 15000\n    },\n    {\n        \"productTitle\": \"REDMI-PRO-11-6GB-128GB\",\n        \"brandName\": \"Redmi\",\n        \"seriesName\": \"Pro-11\",\n        \"price\": 18000\n    },\n    {\n        \"productTitle\": \"SAMSUNG-A2-4GB-64GB\",\n        \"brandName\": \"Samsung\",\n        \"seriesName\": \"A2\",\n        \"price\": 15000\n    },\n    {\n        \"productTitle\": \"SAMSUNG-GALAXY-6GB-128GB\",\n        \"brandName\": \"Samsung\",\n        \"seriesName\": \"Galaxy\",\n        \"price\": 22000\n    },\n    {\n        \"productTitle\": \"Samsung12\",\n        \"brandName\": \"ABCD\",\n        \"seriesName\": \"A\",\n        \"price\": 1850\n    },\n    {\n        \"productTitle\": \"product\",\n        \"brandName\": \"A\",\n        \"seriesName\": \"A2\",\n        \"price\": 15000\n    },\n    {\n        \"productTitle\": \"Samsung\",\n        \"brandName\": \"ABCD\",\n        \"seriesName\": \"A\",\n        \"price\": 0\n    },\n    {\n        \"productTitle\": \"Samsung123456\",\n        \"brandName\": \"ABCD\",\n        \"seriesName\": \"A\",\n        \"price\": 10\n    },\n    {\n        \"productTitle\": \"Samsung1\",\n        \"brandName\": \"ABCD\",\n        \"seriesName\": \"A\",\n        \"price\": 1850\n    },\n    {\n        \"productTitle\": \"Samsung123\",\n        \"brandName\": \"ABCD\",\n        \"seriesName\": \"A\",\n        \"price\": 0\n    },\n    {\n        \"productTitle\": \"D\",\n        \"brandName\": \"A\",\n        \"seriesName\": \"A2\",\n        \"price\": 16506\n    },\n    {\n        \"productTitle\": \"C\",\n        \"brandName\": \"A\",\n        \"seriesName\": \"A2\",\n        \"price\": 15000\n    },\n    {\n        \"productTitle\": \"B\",\n        \"brandName\": \"A\",\n        \"seriesName\": \"A2\",\n        \"price\": 15000\n    },\n    {\n        \"productTitle\": \"a\",\n        \"brandName\": \"A\",\n        \"seriesName\": \"A2\",\n        \"price\": 15000\n    },\n    {\n        \"productTitle\": \"produc4\",\n        \"brandName\": \"A\",\n        \"seriesName\": \"A2\",\n        \"price\": 15\n    },\n    {\n        \"productTitle\": \"product1234564\",\n        \"brandName\": \"A\",\n        \"seriesName\": \"A2\",\n        \"price\": 15000\n    },\n    {\n        \"productTitle\": \"Nokia125\",\n        \"brandName\": \"null\",\n        \"seriesName\": \"null\",\n        \"price\": 0\n    },\n    {\n        \"productTitle\": \"Nokia0\",\n        \"brandName\": \"null\",\n        \"seriesName\": \"null\",\n        \"price\": 100\n    },\n    {\n        \"productTitle\": \"Nokia12500\",\n        \"brandName\": \"null\",\n        \"seriesName\": \"null\",\n        \"price\": 15\n    },\n    {\n        \"productTitle\": \"nokia2250\",\n        \"brandName\": \"A\",\n        \"seriesName\": \"A2\",\n        \"price\": 15\n    },\n    {\n        \"productTitle\": \"nokia1250\",\n        \"brandName\": \"null\",\n        \"seriesName\": \"null\",\n        \"price\": 0\n    },\n    {\n        \"productTitle\": \"Nokia1250\",\n        \"brandName\": \"ABCD\",\n        \"seriesName\": \"A\",\n        \"price\": 1850\n    },\n    {\n        \"productTitle\": \"Samsung11\",\n        \"brandName\": \"ABCD\",\n        \"seriesName\": \"A\",\n        \"price\": 1850\n    },\n    {\n        \"productTitle\": \"Samsung22\",\n        \"brandName\": \"ABCD\",\n        \"seriesName\": \"A\",\n        \"price\": 1850\n    },\n    {\n        \"productTitle\": \"Samsung412\",\n        \"brandName\": \"ABCD\",\n        \"seriesName\": \"A\",\n        \"price\": 1850\n    },\n    {\n        \"productTitle\": \"Mouse312\",\n        \"brandName\": \"ABCD\",\n        \"seriesName\": \"A\",\n        \"price\": 1850\n    },\n    {\n        \"productTitle\": \"Samsung1111\",\n        \"brandName\": \"ABCD\",\n        \"seriesName\": \"A\",\n        \"price\": 1850\n    },\n    {\n        \"productTitle\": \"Samsung312\",\n        \"brandName\": \"ABCD\",\n        \"seriesName\": \"A\",\n        \"price\": 1850\n    },\n    {\n        \"productTitle\": \"ABC_product1\",\n        \"brandName\": \"A\",\n        \"seriesName\": \"A2\",\n        \"price\": 16000\n    },\n    {\n        \"productTitle\": \"product123456\",\n        \"brandName\": \"A\",\n        \"seriesName\": \"A2\",\n        \"price\": 15000\n    },\n    {\n        \"productTitle\": \"product12345\",\n        \"brandName\": \"A\",\n        \"seriesName\": \"A2\",\n        \"price\": 15000\n    },\n    {\n        \"productTitle\": \"product1234\",\n        \"brandName\": \"A\",\n        \"seriesName\": \"A2\",\n        \"price\": 15000\n    },\n    {\n        \"productTitle\": \"ABC_product\",\n        \"brandName\": \"A\",\n        \"seriesName\": \"A2\",\n        \"price\": 16000\n    },\n    {\n        \"productTitle\": \"A\",\n        \"brandName\": \"Samsung\",\n        \"seriesName\": \"A2\",\n        \"price\": 15000\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "createProduct in sf",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productTitle__c\": \"ABC_product2\",\r\n    \"brandName__c\": \"A\",\r\n    \"seriesName__c\": \"A2\",\r\n    \"price__c\": 16000.0,\r\n    \"ram__c\": \"8GB\",\r\n    \"rom__c\": \"64GB\",\r\n    \"warranty__c\": \"1-Years\",\r\n    \"quantity__c\": 4.0,\r\n    \"location__c\": \"Bangalore\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/admin/sf-create-product",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"admin",
+								"sf-create-product"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "createProduct in sf",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productTitle__c\": \"ABC_product2\",\r\n    \"brandName__c\": \"A\",\r\n    \"seriesName__c\": \"A2\",\r\n    \"price__c\": 16000.0,\r\n    \"ram__c\": \"8GB\",\r\n    \"rom__c\": \"64GB\",\r\n    \"warranty__c\": \"1-Years\",\r\n    \"quantity__c\": 4.0,\r\n    \"location__c\": \"Bangalore\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base-uri}}/admin/sf-create-product",
+									"host": [
+										"{{base-uri}}"
+									],
+									"path": [
+										"admin",
+										"sf-create-product"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000 ; includeSubDomains"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 24 Jun 2024 10:53:19 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"msg\": \"New product added.\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "customerDetais SF",
+			"item": [
+				{
+					"name": "updateCustomerDetails is SF",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerId\":\"DEF123\",\r\n    \"address\": \"Bhagwati colony\",\r\n    \"cardDetails\":\"abc card 123\",\r\n    \"emailId\": \"raja6jun@gmail.com\",\r\n    \"firstName\":\"raja7jun\",\r\n    \"lastName\":\"Babu\",\r\n    \"gender\": \"male\",\r\n    \"location\": \"Kolkata\",\r\n    \"phoneNumber\": \"7004635830\",\r\n    \"pincode\": \"827013\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/v1/customer/updateCustomerDetailsSF",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"customer",
+								"updateCustomerDetailsSF"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "particularCustomerDetails-sf",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-uri}}/v1/customer/sf/search?customerId=RAJA_12JUN2",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"customer",
+								"sf",
+								"search"
+							],
+							"query": [
+								{
+									"key": "customerId",
+									"value": "RAJA_12JUN2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "customerDetails-sf",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-uri}}/v1/customer/sf/search",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"customer",
+								"sf",
+								"search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createCustomerSF",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerId\":\"RAJA_12JUN2\",\r\n    \"address\": \"Bhagwati colony\",\r\n    \"cardDetails\":\"abc card 123\",\r\n    \"emailId\": \"raja12jun3@gmail.com\",\r\n    \"firstName\":\"raja12jun\",\r\n    \"lastName\":\"Babu\",\r\n    \"gender\": \"male\",\r\n    \"location\": \"Mumbai\",\r\n    \"phoneNumber\": \"7004635830\",\r\n    \"pincode\": \"827013\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/v1/customer/sf/create",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"customer",
+								"sf",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "customer MongoDb",
+			"item": [
+				{
+					"name": "updateCustomer",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"address\": \"Merai dubai Road\",\r\n    \"cardDetails\": {\r\n        \"1\": {\r\n            \"bankName\": \"Bank A\",\r\n            \"cardNumber\": \"1234567890\"\r\n        },\r\n        \"2\": {\r\n            \"bankName\": \"Bank D\",\r\n            \"cardNumber\": \"1234567890\"\r\n        }\r\n    },\r\n    \"emailId\": \"raja20@gmail.com\",\r\n    \"firstName\": \"Raj\",\r\n    \"lastName\": \"Exavalu 10june\",\r\n    \"gender\": \"Male\",\r\n    \"location\": \"Kolkata\",\r\n    \"phoneNumber\": \"1234567890\",\r\n    \"pincode\": \"400028\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/v1/customer/mongodb/update",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"customer",
+								"mongodb",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "search customer mongodb",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6WyJST0xFX1VTRVIiXSwic3ViIjoidXNlciIsImlhdCI6MTcxODc3NjQ1MywiZXhwIjoxNzE4Nzk0NDUzfQ.WJPARbticjmqzfr1uhKRXXY9ajOW7ZDIeXsOsmMxxd39oI8r7Mdh7T-sOb1en_2UMr0cq5ANSqckE18sT0yDBw",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{base-uri}}/v1/customer/mongodb/search?customerId=KOL_1018&location=Kolkata",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"customer",
+								"mongodb",
+								"search"
+							],
+							"query": [
+								{
+									"key": "customerId",
+									"value": "KOL_1018"
+								},
+								{
+									"key": "location",
+									"value": "Kolkata"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create newCustomer in mongo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"address\": \"Merai Road\",\r\n    \"cardDetails\": {\r\n        \"1\": {\r\n            \"bankName\": \"Bank A\",\r\n            \"cardNumber\": \"1234567890\"\r\n        },\r\n        \"2\": {\r\n            \"bankName\": \"Bank A\",\r\n            \"cardNumber\": \"1234567890\"\r\n        }\r\n    },\r\n    \"emailId\": \"rajababu4we@gmail.com\",\r\n    \"firstName\": \"Raja\",\r\n    \"lastName\": \"Babu\",\r\n    \"gender\": \"Male\",\r\n    \"location\": \"Kolkata\",\r\n    \"phoneNumber\": \"7808300123\",\r\n    \"pincode\": \"400028\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/v1/customer/mongodb/create",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"customer",
+								"mongodb",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "cartDetails SF",
+			"item": [
+				{
+					"name": "distanceService",
+					"item": [
+						{
+							"name": "getDistance",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/getNearestLocations?location=Chennai",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"getNearestLocations"
+									],
+									"query": [
+										{
+											"key": "location",
+											"value": "Chennai"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "getCartDetails",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-uri}}/v1/cartDetails/sf/cartDetails",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"cartDetails",
+								"sf",
+								"cartDetails"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getParticularCartDetail",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-uri}}/v1/cartDetails/sf/ParticularCartDetail?customerId=KOL_1021",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"cartDetails",
+								"sf",
+								"ParticularCartDetail"
+							],
+							"query": [
+								{
+									"key": "emailId",
+									"value": "guestuser14Jun4@gmail.com",
+									"disabled": true
+								},
+								{
+									"key": "customerId",
+									"value": "KOL_1021"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createCart",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerId\": \"RAJA_1234\",\r\n    \"customerEmail\": \"raja12jun@gmail.com\",\r\n    \"items\": {\r\n        \"1\": {\r\n            \"productTitle\": \"REALME-NARZO-N55-6GB-64GB\",\r\n            \"warranty\": \"1-Years\",\r\n            \"quantity\": 1,\r\n            \"price\": 18500,\r\n            \"deliveryCharge\": 100,\r\n            \"totalPrice\": 18600,\r\n            \"shippingWareHouseLocation\": \"Kolkata\",\r\n            \"addToCartDate\": \"2023-07-12\",\r\n            \"expectedDelivery\": \"2-Days\",\r\n            \"nearestDbLocation\": \"Mumbai\"\r\n        },\r\n        \"2\": {\r\n            \"productTitle\": \"REDMI-PRO-11-6GB-128GB\",\r\n            \"warranty\": \"2-Years\",\r\n            \"quantity\": 4,\r\n            \"price\": 18000,\r\n            \"deliveryCharge\": 100,\r\n            \"totalPrice\": 72100,\r\n            \"shippingWareHouseLocation\": \"Kolkata\",\r\n            \"addToCartDate\": \"2023-07-12\",\r\n            \"expectedDelivery\": \"2-Days\",\r\n            \"nearestDbLocation\": \"Kolkata\"\r\n        }\r\n    },\r\n    \"nearestDbLocation\": \"Mumbai\",\r\n    \"totalAmount\": 90700,\r\n    \"status\": \"Booked\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/v1/cartDetails/sf/createcart",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"v1",
+								"cartDetails",
+								"sf",
+								"createcart"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "products mongodb",
+			"item": [
+				{
+					"name": "get product",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-uri}}/v1/product/get-product?productTitle=Apple123456&location=Hyderabad",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"product",
+								"get-product"
+							],
+							"query": [
+								{
+									"key": "productTitle",
+									"value": "Apple123456"
+								},
+								{
+									"key": "location",
+									"value": "Hyderabad"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "getParticular Product",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base-uri}}/v1/product/get-product?productTitle=Apple123456&location=Hyderabad",
+									"host": [
+										"{{base-uri}}"
+									],
+									"path": [
+										"v1",
+										"product",
+										"get-product"
+									],
+									"query": [
+										{
+											"key": "productTitle",
+											"value": "Apple123456"
+										},
+										{
+											"key": "location",
+											"value": "Hyderabad"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000 ; includeSubDomains"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 24 Jun 2024 10:54:21 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"productTitle\": \"Apple123456\",\n        \"brandName\": \"ABCD\",\n        \"seriesName\": \"A\",\n        \"ram\": \"4 GB\",\n        \"rom\": \" 4\",\n        \"warranty\": \"2 Years\",\n        \"price\": 1850,\n        \"quantity\": 50,\n        \"location\": \"Hyderabad\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Add product",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"productTitle\": \"Mouse31\",\r\n    \"brandName\": \"ABCD\",\r\n    \"seriesName\": \"A\",\r\n    \"ram\": \"4 GB\",\r\n    \"rom\": \" 4\",\r\n    \"warranty\": \"2-Years\",\r\n    \"price\": 1850,\r\n    \"quantity\": 52,\r\n    \"location\": \"Hyderabad\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/admin/create-product",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"admin",
+								"create-product"
+							],
+							"query": [
+								{
+									"key": "productTitle",
+									"value": "Samsung1",
+									"disabled": true
+								},
+								{
+									"key": "location",
+									"value": "Hyderabad",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "AddProduct-mongodb Copy",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"productTitle\": \"Mouse31\",\r\n    \"brandName\": \"ABCD\",\r\n    \"seriesName\": \"A\",\r\n    \"ram\": \"4 GB\",\r\n    \"rom\": \" 4\",\r\n    \"warranty\": \"2-Years\",\r\n    \"price\": 1850,\r\n    \"quantity\": 52,\r\n    \"location\": \"Hyderabad\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base-uri}}/admin/create-product",
+									"host": [
+										"{{base-uri}}"
+									],
+									"path": [
+										"admin",
+										"create-product"
+									],
+									"query": [
+										{
+											"key": "productTitle",
+											"value": "Samsung1",
+											"disabled": true
+										},
+										{
+											"key": "location",
+											"value": "Hyderabad",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000 ; includeSubDomains"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 24 Jun 2024 10:55:03 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"msg\": \"New product added.\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Update product",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6WyJST0xFX0FETUlOIl0sInN1YiI6ImFkbWluIiwiaWF0IjoxNzE4ODc3MTM3LCJleHAiOjE3MTg4OTUxMzd9.oU72ZBMJUWYe8mgQoq-L69iP70MOx9LiXzPXL3D9iWwHoyohoGsbAI-C4GgWUnI4caUumGS8STQvLZ6pnPfDRA",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"quantity\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/v1/product/update-quantity?productTitle=Samsung1&location=Hyderabad",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"v1",
+								"product",
+								"update-quantity"
+							],
+							"query": [
+								{
+									"key": "productTitle",
+									"value": "Samsung1"
+								},
+								{
+									"key": "location",
+									"value": "Hyderabad"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "AddProduct-mongodb",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"quantity\": 1\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base-uri}}/v1/product/update-quantity?productTitle=Mouse312&location=Hyderabad",
+									"host": [
+										"{{base-uri}}"
+									],
+									"path": [
+										"v1",
+										"product",
+										"update-quantity"
+									],
+									"query": [
+										{
+											"key": "productTitle",
+											"value": "Mouse312"
+										},
+										{
+											"key": "location",
+											"value": "Hyderabad"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000 ; includeSubDomains"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 24 Jun 2024 10:55:35 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Product Quantity successfully Modified.\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "addToCart",
+			"item": [
+				{
+					"name": "addToCart",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerId\": \"KOL_1021\",\r\n    // \"emailId\":\"guestuser14Jun4@gmail.com\",\r\n    \"location\": \"Mumbai\",\r\n    \"products\": [\r\n        {\r\n            \"productTitle\": \"REDMI-NOTE-10S-4GB-64GB\",\r\n            \"quantity\": 1\r\n        }\r\n        // {\r\n        //     \"productTitle\": \"REALME-NARZO-N55-6GB-64GB\",\r\n        //     \"quantity\": 1\r\n        // },\r\n        // {\r\n        //     \"productTitle\": \"SAMSUNG-GALAXY-6GB-128GB\",\r\n        //     \"quantity\": 1\r\n        // }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/v1/cartDetails/addToCart",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"cartDetails",
+								"addToCart"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "payment",
+			"item": [
+				{
+					"name": "getParticularOrder",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-uri}}/v1/getOrderDetails?orderId=a05J3000000X7pE",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"getOrderDetails"
+							],
+							"query": [
+								{
+									"key": "customerId",
+									"value": "KOL_1020",
+									"disabled": true
+								},
+								{
+									"key": "orderId",
+									"value": "a05J3000000X7pE"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "response-particular order",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/v1/getOrderDetails?customerId=RAJA_12JUN2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"v1",
+										"getOrderDetails"
+									],
+									"query": [
+										{
+											"key": "customerId",
+											"value": "RAJA_12JUN2"
+										},
+										{
+											"key": "orderId",
+											"value": "a05J3000000WjCO",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 13 Jun 2024 12:02:53 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"orderId\": \"a05J3000000Wk3v\",\n        \"customerId\": \"RAJA_12JUN2\",\n        \"deliveryDate\": \"16-06-2024\",\n        \"feedback\": \"null\",\n        \"items\": {\n            \"1\": {\n                \"productTitle\": \"REDMI-NOTE-10S-4GB-64GB\",\n                \"warranty\": \"2-Years\",\n                \"quantity\": 1,\n                \"price\": 15000,\n                \"deliveryCharge\": 50,\n                \"totalPrice\": 15050,\n                \"shippingWareHouseLocation\": \"Mumbai\",\n                \"addToCartDate\": \"12-06-2024\",\n                \"expectedDelivery\": \"01-07-2024\",\n                \"nearestDbLocation\": \"Mumbai\"\n            },\n            \"2\": {\n                \"productTitle\": \"REALME-NARZO-N55-6GB-64GB\",\n                \"warranty\": \"1-Years\",\n                \"quantity\": 1,\n                \"price\": 18500,\n                \"deliveryCharge\": 50,\n                \"totalPrice\": 18550,\n                \"shippingWareHouseLocation\": \"Mumbai\",\n                \"addToCartDate\": \"12-06-2024\",\n                \"expectedDelivery\": \"14-06-2024\",\n                \"nearestDbLocation\": \"Mumbai\"\n            }\n        },\n        \"orderDate\": \"13-06-2024\",\n        \"paymentMode\": \"card\",\n        \"status\": \"In-Transit\",\n        \"totalPrice\": \"33600.0\",\n        \"salesforceId\": \"a05J3000000Wk3vIAC\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "createOrder",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerId\": \"KOL_1063\",\r\n    \"deliveryDate\": \"2023-08-29\",\r\n    \"feedback\": \"{\\n  \\\"1\\\": {\\n    \\\"productTitle\\\": \\\"REDMI-PRO-11-6GB-128GB\\\",\\n    \\\"Display\\\": \\\"Bad\\\",\\n    \\\"Camera\\\": \\\"Average\\\",\\n    \\\"Performance\\\": \\\"Good\\\",\\n    \\\"Overall\\\": \\\"Average\\\",\\n    \\\"description\\\": \\\"Not as expected\\\"\\n  }\\n}\",\r\n    \"items\": {\r\n        \"1\": {\r\n            \"productTitle\": \"REALME-NARZO-N55-6GB-64GB\",\r\n            \"warranty\": \"1-Years\",\r\n            \"quantity\": 1,\r\n            \"price\": 18500,\r\n            \"deliveryCharge\": 100,\r\n            \"totalPrice\": 18600,\r\n            \"shippingWareHouseLocation\": \"Kolkata\",\r\n            \"addToCartDate\": \"2023-07-12\",\r\n            \"expectedDelivery\": \"2-Days\",\r\n            \"nearestDbLocation\": \"Mumbai\"\r\n        },\r\n        \"2\": {\r\n            \"productTitle\": \"REDMI-PRO-11-6GB-128GB\",\r\n            \"warranty\": \"2-Years\",\r\n            \"quantity\": 4,\r\n            \"price\": 18000,\r\n            \"deliveryCharge\": 100,\r\n            \"totalPrice\": 72100,\r\n            \"shippingWareHouseLocation\": \"Kolkata\",\r\n            \"addToCartDate\": \"2023-07-12\",\r\n            \"expectedDelivery\": \"2-Days\",\r\n            \"nearestDbLocation\": \"Kolkata\"\r\n        }\r\n    },\r\n    \"orderDate\": \"2023-08-28\",\r\n    \"paymentMode\": \"upi\",\r\n    \"status\": \"Delivered\",\r\n    \"totalPrice\": \"18250.0\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/v1/createOrder",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"createOrder"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/payment guest user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerDetails\": {\r\n        // \"customerId\": \"RAJA_12JUN2\"\r\n        \"emailId\": \"guestuser14Jun4@gmail.com\",\r\n        \"firstName\": \"Guest14Jun3\",\r\n        \"lastName\": \"user\",\r\n        \"gender\": \"Male\",\r\n        \"pincode\": \"700144\",\r\n        \"address\": \"Paulpara\",\r\n        \"phoneNumber\": \"8420392910\",\r\n        \"location\": \"Mumbai\"\r\n    },\r\n    \"paymentDetails\": {\r\n        // \"paymentMode\": \"card\",\r\n        // \"paymentMode\": \"UPI\",\r\n        \"paymentMode\": \"cash\",\r\n        // \"cardId\": 1,\r\n        // \"bankName\": \"AXIS\",\r\n        // \"cardNumber\": \"4485694975985652\",\r\n        // \"cvv\": \"166\",\r\n        // \"useCashback\": true, //false\r\n        \"totalAmount\": 22050\r\n        // \"upiId\": \"abc@ybl@\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/v1/payment",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"payment"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "/payment",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customerDetails\": {\r\n        // \"customerId\": \"RAJA_12JUN2\"\r\n        \"emailId\": \"guestuser14Jun@gmail.com\",\r\n        \"firstName\": \"Guest14Jun\",\r\n        \"lastName\": \"user\",\r\n        \"gender\": \"Male\",\r\n        \"pincode\": \"700144\",\r\n        \"address\": \"Paulpara\",\r\n        \"phoneNumber\": \"8420392910\",\r\n        \"location\": \"Mumbai\"\r\n    },\r\n    \"paymentDetails\": {\r\n        \"paymentMode\": \"card\",\r\n        // \"cardId\": 1,\r\n        \"bankName\": \"AXIS\",\r\n        \"cardNumber\": \"4485694975985652\",\r\n        \"cvv\": \"166\",\r\n        \"totalAmount\": 55650\r\n        // \"upiId\": \"abc@ybl\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/v1/payment",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"v1",
+										"payment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 14 Jun 2024 07:42:03 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"customerId\": \"MUM_1045\",\n    \"msg\": \"you can check orderDtails using your customerId or orderId: a05J3000000Wmq5\",\n    \"emailId\": \"guestuser14Jun@gmail.com\",\n    \"payment\": \"Congratulation payment is successfull!\",\n    \"paymentDate\": \"14-06-2024\",\n    \"status\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "/payment using customerId and cardDetails",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerDetails\": {\r\n        \"customerId\": \"KOL_1021\"\r\n        // \"emailId\": \"rishavdutta.brpq@gmail.com\",\r\n        // \"firstName\": \"Rij@u\",\r\n        // \"lastName\": \"Dutta\",\r\n        // \"gender\": \"Male\",\r\n        // \"pincode\": \"700144\",\r\n        // \"address\": \"Paulpara\",\r\n        // \"phoneNumber\": \"8420392910\",\r\n        // \"location\": \"Mumbai\"\r\n    },\r\n    \"paymentDetails\": {\r\n        \"paymentMode\": \"card\",\r\n        // \"cardId\": 1,\r\n        \"bankName\": \"AXIS\",\r\n        \"cardNumber\": \"4485694975985652\",\r\n        \"cvv\": \"166\",\r\n        \"useCashback\": false,\r\n        \"totalAmount\": 15050\r\n        // \"upiId\": \"abc@ybl\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/v1/payment",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"payment"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "/payment",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"customerDetails\": {\r\n        // \"customerId\": \"RAJA_12JUN2\"\r\n        \"emailId\": \"guestuser14Jun@gmail.com\",\r\n        \"firstName\": \"Guest14Jun\",\r\n        \"lastName\": \"user\",\r\n        \"gender\": \"Male\",\r\n        \"pincode\": \"700144\",\r\n        \"address\": \"Paulpara\",\r\n        \"phoneNumber\": \"8420392910\",\r\n        \"location\": \"Mumbai\"\r\n    },\r\n    \"paymentDetails\": {\r\n        \"paymentMode\": \"card\",\r\n        // \"cardId\": 1,\r\n        \"bankName\": \"AXIS\",\r\n        \"cardNumber\": \"4485694975985652\",\r\n        \"cvv\": \"166\",\r\n        \"totalAmount\": 55650\r\n        // \"upiId\": \"abc@ybl\"\r\n    }\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/v1/payment",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"v1",
+										"payment"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 14 Jun 2024 07:42:03 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"customerId\": \"MUM_1045\",\n    \"msg\": \"you can check orderDtails using your customerId or orderId: a05J3000000Wmq5\",\n    \"emailId\": \"guestuser14Jun@gmail.com\",\n    \"payment\": \"Congratulation payment is successfull!\",\n    \"paymentDate\": \"14-06-2024\",\n    \"status\": 200\n}"
+						}
+					]
+				},
+				{
+					"name": "deleteparicularOrder",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/deleteOrder",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"deleteOrder"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "cashback",
+			"item": [
+				{
+					"name": "getChasback wallet",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-uri}}/v1/cashback?customerId=KOL_1020",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"cashback"
+							],
+							"query": [
+								{
+									"key": "customerId",
+									"value": "KOL_1020"
+								},
+								{
+									"key": "emailId",
+									"value": "raja162jun@gmail.com",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "apply promocode",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customerId\": \"KOL_1020\",\r\n    \"promocode\": \"BONZA100\"\r\n    // \"customerEmail\": \"raja16jun@gmail.com\",\r\n    // \"cashbackWallet\": 120\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/applypromocode",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"applypromocode"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "promocode-admin",
+			"item": [
+				{
+					"name": "fetchPromocode",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-uri}}/admin/promocode?promocode=NEWUSER",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"admin",
+								"promocode"
+							],
+							"query": [
+								{
+									"key": "promocode",
+									"value": "NEWUSER"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "changeStatusOf Promocode",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"promoCode\":\"NEWUSER\",\r\n    \"status\": \"Inactive\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/admin/changestatus",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"admin",
+								"changestatus"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createpromocode",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cashback\" : 100,\r\n    \"promoCode\" : \"BONZA100\",\r\n    \"status\":\"Active\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/admin/createpromocode",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"admin",
+								"createpromocode"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "otpController",
+			"item": [
+				{
+					"name": "getOtp",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-uri}}/v1/sendOtp?email=rajababu4weexavalu@gmail.com",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"sendOtp"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "rajababu4weexavalu@gmail.com"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "verifyOtp",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base-uri}}/v1/verifyOtp?email=rajababu4we@gmail.com&otp=369340",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"verifyOtp"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "rajababu4we@gmail.com"
+								},
+								{
+									"key": "otp",
+									"value": "369340"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "orderController-deliveryAgent",
+			"item": [
+				{
+					"name": "orderDelivered Cancelled",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"orderId\": \"a05J3000000WtsR\",\r\n    \"status\": \"cancelled\" //\"cancelled\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/v1/delivery-agent/changeOrderStatus",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"delivery-agent",
+								"changeOrderStatus"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "JWT",
+			"item": [
+				{
+					"name": "auth/login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\":\"admin\",\r\n    \"password\":\"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/auth/login",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "auth/login-response",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"username\":\"admin\",\r\n    \"password\":\"admin\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base-uri}}/auth/login",
+									"host": [
+										"{{base-uri}}"
+									],
+									"path": [
+										"auth",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000 ; includeSubDomains"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 24 Jun 2024 04:49:35 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"username\": \"admin\",\n    \"jwtToken\": \"eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6WyJST0xFX0FETUlOIl0sInN1YiI6ImFkbWluIiwiaWF0IjoxNzE5MjA0NTc1LCJleHAiOjE3MTkyMjI1NzV9.ZXdPOXdiIZF5dlCBOM3aXktkZ550vWqNUYFxpnrc9MPZL9Yy7vI7roFk-ic4_h4SUPn7ecUvpMtsvLHAPMCIIQ\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "HealthCheck",
+			"item": [
+				{
+					"name": "health check",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-uri}}/admin/health",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"admin",
+								"health"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "/health-response",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base-uri}}/admin/health",
+									"host": [
+										"{{base-uri}}"
+									],
+									"path": [
+										"admin",
+										"health"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000 ; includeSubDomains"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/vnd.spring-boot.actuator.v3+json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 24 Jun 2024 04:56:07 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"UP\",\n    \"components\": {\n        \"diskSpace\": {\n            \"status\": \"UP\",\n            \"details\": {\n                \"total\": 185038008320,\n                \"free\": 168052187136,\n                \"threshold\": 10485760,\n                \"path\": \"D:\\\\Workspaces\\\\workspace-spring\\\\exavalu-customer-product-portal\\\\.\",\n                \"exists\": true\n            }\n        },\n        \"mail\": {\n            \"status\": \"UP\",\n            \"details\": {\n                \"location\": \"smtp.gmail.com:587\"\n            }\n        },\n        \"mongo\": {\n            \"status\": \"UP\",\n            \"components\": {\n                \"BangaloreMongoTemplate\": {\n                    \"status\": \"UP\",\n                    \"details\": {\n                        \"maxWireVersion\": 21\n                    }\n                },\n                \"HyderabadMongoTemplate\": {\n                    \"status\": \"UP\",\n                    \"details\": {\n                        \"maxWireVersion\": 21\n                    }\n                },\n                \"KolkataMongoTemplate\": {\n                    \"status\": \"UP\",\n                    \"details\": {\n                        \"maxWireVersion\": 21\n                    }\n                },\n                \"MumbaiMongoTemplate\": {\n                    \"status\": \"UP\",\n                    \"details\": {\n                        \"maxWireVersion\": 21\n                    }\n                }\n            }\n        },\n        \"ping\": {\n            \"status\": \"UP\"\n        },\n        \"redis\": {\n            \"status\": \"UP\",\n            \"details\": {\n                \"version\": \"3.0.504\"\n            }\n        }\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "/admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base-uri}}/admin",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"admin"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base-uri}}/admin",
+									"host": [
+										"{{base-uri}}"
+									],
+									"path": [
+										"admin"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000 ; includeSubDomains"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/vnd.spring-boot.actuator.v3+json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 24 Jun 2024 10:50:31 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"_links\": {\n        \"self\": {\n            \"href\": \"https://localhost:8443/admin\",\n            \"templated\": false\n        },\n        \"health\": {\n            \"href\": \"https://localhost:8443/admin/health\",\n            \"templated\": false\n        },\n        \"health-path\": {\n            \"href\": \"https://localhost:8443/admin/health/{*path}\",\n            \"templated\": true\n        }\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Feedabck Details",
+			"item": [
+				{
+					"name": "Add feedback",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6WyJST0xFX0FETUlOIl0sInN1YiI6ImFkbWluIiwiaWF0IjoxNzE5MDYyMzg4LCJleHAiOjE3MTkwODAzODh9.mWsIEvIetvxmc5NICJA0lzrKWMlNJYna2hdVbNW9RHwcLu7XBqJZbJ8SwoNg-wmWMMIBW7acQuPGXa9wvmEzzg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"orderId\": \"a05J3000000WjCO\",\r\n    \"feedback\": {\r\n        \"productTitle\": \"REDMI-PRO-11-6GB-128GB\",\r\n        \"Display\": \"Good\",\r\n        \"Camera\": \"Average\",\r\n        \"Performance\": \"Good\",\r\n        \"Overall\": \"Average\",\r\n        \"description\": \"Not as expected\"\r\n    }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/v1/feedback/add-feedback",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"v1",
+								"feedback",
+								"add-feedback"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Complaint details",
+			"item": [
+				{
+					"name": "Add Complaint",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"orderId\": \"a05J3000000Wmq5\",\r\n    \"productTitle\": \"REALME\",\r\n    \"quantity\": 1,\r\n    \"customerId\": \"ISITA_2406\",\r\n    \"complaint_category\": \"Wrong_Items\",\r\n    \"description\": \"Bad product\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/v1/complaint/create",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"complaint",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Close complaint",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"status\": \"Closed\",\r\n    \"orderId\": \"a05J3000000Wmq5\",\r\n    \"reason\" : \"Replace initiated\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/admin/complaint/close?complaintId=a06J30000010WSF&action=Replace",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"admin",
+								"complaint",
+								"close"
+							],
+							"query": [
+								{
+									"key": "complaintId",
+									"value": "a06J30000010WSF"
+								},
+								{
+									"key": "action",
+									"value": "Replace"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Track complaint",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"orderId\": \"a035i00000Bwioj\",\r\n    \"productTitle\": \"SAMSUNG-A2-4GB-64GB\",\r\n    \"quantity\": 1,\r\n    \"customerId\": \"KOL_1234\",\r\n    \"complaint_category\": \"Wrong_Items\",\r\n    \"description\": \"Bad product\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base-uri}}/v1/complaint/details?productTitle=REDMI-NOTE-10S-4GB-64GB&OrderId=a05J3000000Wmq5",
+							"host": [
+								"{{base-uri}}"
+							],
+							"path": [
+								"v1",
+								"complaint",
+								"details"
+							],
+							"query": [
+								{
+									"key": "complaintId",
+									"value": "a06J30000010WSK",
+									"disabled": true
+								},
+								{
+									"key": "productTitle",
+									"value": "REDMI-NOTE-10S-4GB-64GB"
+								},
+								{
+									"key": "OrderId",
+									"value": "a05J3000000Wmq5"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Track complaint",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"orderId\": \"a035i00000Bwioj\",\r\n    \"productTitle\": \"SAMSUNG-A2-4GB-64GB\",\r\n    \"quantity\": 1,\r\n    \"customerId\": \"KOL_1234\",\r\n    \"complaint_category\": \"Wrong_Items\",\r\n    \"description\": \"Bad product\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base-uri}}/v1/complaint/details?productTitle=REDMI-NOTE-10S-4GB-64GB&OrderId=a05J3000000Wmq5",
+									"host": [
+										"{{base-uri}}"
+									],
+									"path": [
+										"v1",
+										"complaint",
+										"details"
+									],
+									"query": [
+										{
+											"key": "complaintId",
+											"value": "a06J30000010WSK",
+											"disabled": true
+										},
+										{
+											"key": "productTitle",
+											"value": "REDMI-NOTE-10S-4GB-64GB"
+										},
+										{
+											"key": "OrderId",
+											"value": "a05J3000000Wmq5"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Vary",
+									"value": "Origin"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Method"
+								},
+								{
+									"key": "Vary",
+									"value": "Access-Control-Request-Headers"
+								},
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "0"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "Strict-Transport-Security",
+									"value": "max-age=31536000 ; includeSubDomains"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 24 Jun 2024 10:58:42 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"complaintId\": \"a06J30000010WSF\",\n        \"date_of_complaint\": \"2024-06-24\",\n        \"customerId\": \"ISITA_2406\",\n        \"productTitle\": \"REDMI-NOTE-10S-4GB-64GB\",\n        \"quantity\": 1,\n        \"complaint_category\": \"Wrong_Items\",\n        \"description\": \"Bad product\",\n        \"status\": \"Closed\",\n        \"action\": \"Replace\",\n        \"reason\": \"Replace initiated\",\n        \"orderId\": \"a05J3000000Wmq5\"\n    }\n]"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "https://login.salesforce.com/services/oauth2/token?grant_type=password&client_id=3MVG9wt4IL4O5wvKiqX9I23DKB8P7doaBNKRKv.6r6N2WRETu0pgozk1u5mZBejuh544AepCKcEOKXvybcVn9&client_secret=470EA29DB7BD63AF63497754B45DF002520CAEED11DFDAEDCAD33C18E938D08F&username=",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "https://login.salesforce.com/services/oauth2/token?grant_type=password&client_id=3MVG9wt4IL4O5wvKiqX9I23DKB8P7doaBNKRKv.6r6N2WRETu0pgozk1u5mZBejuh544AepCKcEOKXvybcVn9&client_secret=470EA29DB7BD63AF63497754B45DF002520CAEED11DFDAEDCAD33C18E938D08F&username=muleprojectgroupexavalu@gmail.com&password=Muleproject1234@",
+					"protocol": "https",
+					"host": [
+						"login",
+						"salesforce",
+						"com"
+					],
+					"path": [
+						"services",
+						"oauth2",
+						"token"
+					],
+					"query": [
+						{
+							"key": "grant_type",
+							"value": "password"
+						},
+						{
+							"key": "client_id",
+							"value": "3MVG9wt4IL4O5wvKiqX9I23DKB8P7doaBNKRKv.6r6N2WRETu0pgozk1u5mZBejuh544AepCKcEOKXvybcVn9"
+						},
+						{
+							"key": "client_secret",
+							"value": "470EA29DB7BD63AF63497754B45DF002520CAEED11DFDAEDCAD33C18E938D08F"
+						},
+						{
+							"key": "username",
+							"value": "muleprojectgroupexavalu@gmail.com"
+						},
+						{
+							"key": "password",
+							"value": "Muleproject1234@"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzUxMiJ9.eyJyb2xlcyI6WyJST0xFX0FETUlOIl0sInN1YiI6ImFkbWluIiwiaWF0IjoxNzE5MjA4NzMwLCJleHAiOjE3MTkyMjY3MzB9.wEYeXssqH1Vfh9a-H9uqSPdgHUjZyRXMZMhDloPuhwqLKTmJbmWRQ_tQZAMVSVF-U3CVcIsj4d0GCLlhGtBw5Q",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base-uri",
+			"value": "https://localhost:8443",
+			"type": "string"
+		},
+		{
+			"value": "",
+			"type": "string",
+			"disabled": true
+		}
+	]
+}
