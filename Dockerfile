@@ -15,7 +15,7 @@ FROM openjdk:17-jdk-alpine
 WORKDIR /app
  
 # Copy the built jar file from the build stage
-COPY --from=build /app/target/customer-product-portal-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=build /app/target/customer-product-portal-0.0.2-SNAPSHOT.jar app.jar
 #/exavalu-customer-product-portal/target/customer-product-portal-0.0.1-SNAPSHOT.jar
 # Expose the port that the application will run on (optional, for documentation purposes)
 #EXPOSE 8080
